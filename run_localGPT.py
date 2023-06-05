@@ -119,3 +119,5 @@ def main(device_type, ):
         print(document.page_content)
     print("----------------------------------SOURCE DOCUMENTS---------------------------")
 
+if __name__ == "__main__":
+    main()
