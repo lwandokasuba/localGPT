@@ -112,12 +112,12 @@ def main(device_type, ):
     print("\n> Answer:")
     print(answer)
 
-    # # Print the relevant sources used for the answer
-    print("----------------------------------SOURCE DOCUMENTS---------------------------")
-    for document in docs:
-        print("\n> " + document.metadata["source"] + ":")
-        print(document.page_content)
-    print("----------------------------------SOURCE DOCUMENTS---------------------------")
+    # # # Print the relevant sources used for the answer
+    # print("----------------------------------SOURCE DOCUMENTS---------------------------")
+    # for document in docs:
+    #     print("\n> " + document.metadata["source"] + ":")
+    #     print(document.page_content)
+    # print("----------------------------------SOURCE DOCUMENTS---------------------------")
 
 if __name__ == "__main__":
     main()
